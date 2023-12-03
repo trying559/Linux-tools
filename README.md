@@ -168,7 +168,7 @@ This section focuses on tools enabling remote access, SSH configurations, and ma
     > `iptables -A INPUT -p tcp --dport 80 -j ACCEPT`
 -----------------------------------------------------------------------------
 
-<!-- ## System Information <a name="system-information"></a>
+## System Information <a name="system-information"></a>
 
 These tools help users quickly gather essential information about the system, its configuration, and some resource utilization.
 
@@ -251,5 +251,5 @@ This section focuses on tools enabling remote access, SSH configurations, and ma
 2. `scp`: Securely copies files between systems.
 3. `rsync`: Synchronizes files and directories between systems.
 4. `OpenVPN`: Establishes secure connections over the internet.
-5. `iptables`: Configures rules for network address translation (NAT) and port forwarding. -->
+5. `iptables`: Configures rules for network address translation (NAT) and port forwarding.
 
