@@ -15,60 +15,60 @@
 -----------------------------------------------------------------------------
 
 ## System Information <a name="system-information"></a>
-1. `uname` Retrieves basic system information like kernel name, version, and system architecture. 
+1. `uname` Retrieves basic system information like kernel name, version, and system architecture.
 2. `lsb_release` Provides Linux Standard Base information about the distribution.
 3. `hostname` Shows the system's hostname.
 4. `lscpu` Displays information about the CPU architecture.
 5. `free` Offers details about system memory (RAM) usage.
 
 ## System Monitoring <a name="system-monitoring"></a>
-1. `top` & `htop` & `btop` Provides real-time information about system processes. 
+1. `top` & `htop` & `btop` Provides real-time information about system processes.
 2. `vmstat` Reports virtual memory statistics.
 3. `sar` Collects, reports, and saves system activity information.
 4. `nmon` Provides performance monitoring and analysis.
 5. `glances` Monitors system resources and processes in real-time.
 
 ## Logging and Debugging <a name="logging-and-debugging"></a>
-1. `journalctl`: Accesses and reads the systemd journal.
-2. `dmesg`: Displays kernel-related messages.
-3. `syslog`: Handles system log files.
-4. `strace`: Traces system calls and signals.
-5. `tcpdump`: Captures network packets.
+1. `journalctl` Accesses and reads the systemd journal.
+2. `dmesg` Displays kernel-related messages.
+3. `syslog` Handles system log files.
+4. `strace` Traces system calls and signals.
+5. `tcpdump` Captures network packets.
 
 ## File System Management <a name="file-system-management"></a>
-1. `df`: Displays disk space usage.
-2. `du`: Shows disk space usage of files and directories.
-3. `mount`: Mounts file systems.
-4. `chown`: Changes file or group ownership.
-5. `chmod`: Modifies file permissions.
+1. `df` Displays disk space usage.
+2. `du` Shows disk space usage of files and directories.
+3. `mount` Mounts file systems.
+4. `chown` Changes file or group ownership.
+5. `chmod` Modifies file permissions.
 
 ## Process Management <a name="process-management"></a>
-1. `ps`: Displays information about active processes.
-2. `pgrep`: Searches for processes by name.
-3. `kill`: Terminates processes.
-4. `htop`: Interactive process viewer offering a better visualization of system processes.
-5. `systemctl`: Controls systemd services.
+1. `ps` Displays information about active processes.
+2. `pgrep` Searches for processes by name.
+3. `kill` Terminates processes.
+4. `htop` Interactive process viewer offering a better visualization of system processes.
+5. `systemctl` Controls systemd services.
 
 ## Network Management <a name="network-management"></a>
-1. **`iptables`**: Manages netfilter firewall rules.
-2. `ufw`: Uncomplicated Firewall for managing iptables.
-3. `ss`: Shows socket statistics.
-4. `nmap`: Scans ports and discovers hosts on a network.
-5. `fail2ban`: Intrusion prevention system that blocks malicious IP addresses.
+1. `iptables` Manages netfilter firewall rules.
+2. `ufw` Uncomplicated Firewall for managing iptables.
+3. `ss` Shows socket statistics.
+4. `nmap` Scans ports and discovers hosts on a network.
+5. `fail2ban` Intrusion prevention system that blocks malicious IP addresses.
 
 ## User and Group Management <a name="user-and-group-management"></a>
-1. `useradd`: Adds a new user account.
-2. `userdel`: Deletes a user account.
-3. `passwd`: Manages user passwords.
-4. `groupadd`: Adds a new group.
-5. `chown`: Changes file or group ownership.
+1. `useradd` Adds a new user account.
+2. `userdel` Deletes a user account.
+3. `passwd` Manages user passwords.
+4. `groupadd` Adds a new group.
+5. `chown` Changes file or group ownership.
 
 ## Remote Access and Connectivity <a name="remote-access-and-connectivity"></a>
-1. `ssh`: Securely connects to a remote system.
-2. `scp`: Securely copies files between systems.
-3. `rsync`: Synchronizes files and directories between systems.
-4. `OpenVPN`: Establishes secure connections over the internet.
-5. `iptables`: Configures rules for network address translation (NAT) and port forwarding.
+1. `ssh` Securely connects to a remote system.
+2. `scp` Securely copies files between systems.
+3. `rsync` Synchronizes files and directories between systems.
+4. `OpenVPN` Establishes secure connections over the internet.
+5. `iptables` Configures rules for network address translation (NAT) and port forwarding.
 
 <!-- Backup -->
 <!-- ## System Information <a name="system-information"></a>
